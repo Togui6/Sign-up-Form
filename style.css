@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'nurse_bold';
+    src: url(Norse-Bold.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+title {
+    font-family: 'nurse_bold';
+}   
+
+.whole-flex-block {
+display: flex;
+flex-direction: row;
+
+}
+
+.plant {
+    position: relative;
+    width: 500px;
+}
+
+.behind-logo {
+    position: absolute;
+    top: 150px;
+    width: 500px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    top: 10px;
+    left: 100px;
+}
+
+.odin {
+    position: absolute;
+    top: 110px;
+    left: 205px;
+    font-family: 'nurse_bold';
+    font-size: 50px;
+    color: white;
+}
+
+
+.right-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-paragraph {
+    background-color: #596D48;
+}
+
+input {
+    border-color: #E5E7EB;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border-color: rgb(0, 255, 34);
+    box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    border-radius: 6px;
+}
